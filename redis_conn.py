@@ -11,6 +11,6 @@ import redis
 
 
 def redis_conn_pool():
-    pool = redis.ConnectionPool(host='localhost', port=6379, decode_responses=True)
+    pool = redis.ConnectionPool(host='127.0.0.1', port=6379, decode_responses=True)
     rd = redis.Redis(connection_pool=pool)
     return rd

@@ -46,6 +46,6 @@ if __name__ == '__main__':
     print(trend['data']['areaTree'])
     res = get_ncov_data()
     res2 = get_ncovcity_data()
-    # print(res['newslist'])
-    # # print(res['newslist'][0]['provinceName'])
+    print(res['newslist'])
+    print(res['newslist'][0]['provinceName'])
 

@@ -841,7 +841,7 @@ top:'70%',
             type:'pie',
 			center: ['50%', '42%'],
             radius: ['40%', '60%'],
-                  color: ['#065aab', '#066eab'],
+            color: ['#FADB14', '#FA541C'],
             label: {show:false},
 			labelLine: {show:false},
             data: data
@@ -897,7 +897,7 @@ position:function(p){   //其中p为当前鼠标的位置
             type:'pie',
 			center: ['50%', '42%'],
             radius: ['40%', '60%'],
-            color: ['#065aab', '#066eab'],
+            color: ['#FADB14', '#066eab'],
             label: {show:false},
 			labelLine: {show:false},
             data: data
@@ -951,7 +951,7 @@ position:function(p){   //其中p为当前鼠标的位置
             type:'pie',
 			center: ['50%', '42%'],
             radius: ['40%', '60%'],
-                   color: ['#065aab', '#066eab'],
+                   color: ['#065aab', '#FA541C'],
             label: {show:false},
 			labelLine: {show:false},
             data: data
